@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise: CSS Pseudo Classes</title>
+    <style>
+      button {
+        background-color: red;
+        border: none;
+      }
+        button a {
+        color: white;
+      }
+      button a:hover {
+          color: black;
+      }
+      #duck {
+        background-color: violet;
+      }
+      #yahoo {
+          background-color: green;
+      }
+      a {
+          color: whitesmoke;
+      }
+      a:hover {
+          color: black;
+      }
+      ul,
+      ol {
+        list-style-type: none;
+      }
+      ul li {
+        padding-bottom: 30px;
+      }
+      ol {
+        margin-left: 40px;
+      }
+
+      #article01 {
+          background-color: green;
+      }
+      #article02 {
+          background-color: violet;
+      }
+      #article03 {
+          background-color: red;
+      }
+    </style>
+  </head>
+
+  <body>
+    <ul>
+      <li>
+        <button><a href="https://www.google.com/" target="_blank">Google</button></a>
+      </li>
+      <li>
+        <button id="duck"><a href="https://duckduckgo.com/" target="_blank">Duck Duck Go</button></a>
+      </li>
+      <li>
+        <button id="yahoo"><a href="https://de.yahoo.com/?p=us&guccounter=1" target="_blank">Yahoo!</button></a>
+      </li>
+    </ul>
+
+    <ol>
+      <li><a id="article01" href="https://www.rollingstone.com/politics/politics-news/why-did-the-justice-system-target-aaron-swartz-106848/" target="_blank">Why Did the Justice System Target Aaron Swartz?</a></li>
+      <li><a id="article02" href="https://thegrayzone.com/2020/02/17/john-pilger-julian-assange-saved-betrayed/" target="_blank">John Pilger: It is time for Julian Assange to be saved, not betrayed</a></li>
+      <li><a id="article03" href="https://www.theguardian.com/commentisfree/2013/oct/31/glenn-greenwald-leaving-guardian" target="_blank">On leaving the Guardian</a></li>
+    </ol>
+  </body>
+</html>
